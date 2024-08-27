@@ -1,0 +1,28 @@
+.cell {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cell.highlighted {
+    background-color: #a0e0a0;
+}
+
+.cell:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+
+.cell:nth-child(even) {
+    background-color: #fff;
+}
+
+.cell:hover {
+    background-color: #d3d3d3;
+}
